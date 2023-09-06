@@ -1,0 +1,24 @@
+h1{
+    font-size: 100px;
+}
+.flexcontainer{
+    display: flex;
+    flex-direction: row; /* or column, row-reverse, column-reverse */
+    justify-content: center; /* Main axis alignment: center, flex-start, flex-end, space-between, space-around */
+    align-items: center; /* Cross-axis alignment: center, flex-start, flex-end, baseline, stretch */
+    /*flex-wrap: wrap; /* or nowrap, wrap-reverse */
+}
+.flex-item{
+    flex: 1; /* shorthand for flex-grow, flex-shrink, and flex-basis */
+}
+
+.centered-element{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 120vh; /* Optional: To make the element take up the full viewport height */
+  }
+
+.backgroundbox{
+    /*background-image: url("");*/
+}
